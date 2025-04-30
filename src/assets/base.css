@@ -1,0 +1,123 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --primary: #00527d;
+  --secondary: #00b140;
+  --tertiary: #333333;
+  --bluelight_color: #56a2dc;
+  --white: #fff;
+  --black: #000;
+  --dark_blue: #003366;
+  --orange: orange;
+
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+
+  --font_family_primary: 'Barlow', sans-serif;
+  --font_family_secondary: 'Roboto', sans-serif;
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-tertiary {
+  color: var(--tertiary);
+}
+.d-flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-content-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.justify-content-center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.flex-row {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.align-items-start {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.align-items-end {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.align-items-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.gap_26 {
+  gap: 28px;
+}
+.grey_sec {
+  background-color: #f4f4f4;
+}
+.text-white {
+  color: var(--white);
+}
+.position-relative {
+  position: relative;
+}
+.z-index-1 {
+  z-index: 1;
+}
+.border-radius-10 {
+  border-radius: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
